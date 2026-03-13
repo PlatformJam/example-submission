@@ -1,7 +1,7 @@
 manifest_version = 1
 
 # Name of the jam this project is participating in.
-jam = "spring-2026"
+jam = "Spring 2026"
 
 # Basic project info.
 [project]

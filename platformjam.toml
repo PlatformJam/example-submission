@@ -1,0 +1,77 @@
+manifest_version = 1
+
+# Name of the jam this project is participating in.
+jam = "spring-2026"
+
+# Basic project info.
+[project]
+name = "LearnGraph"
+
+# A short, catchy description of your project. This should be no more than
+# a sentence or two, and is meant to quickly convey the essence of your
+# project to potential users.
+tagline = "Interactive graph theory education platform"
+
+# A longer description of your project. This is a good place to talk about
+# the motivation for your project, the problem you're trying to solve, and
+# the key features of your solution.
+description = "A web platform for learning graph theory through visual lessons, quizzes, and interactive exercises."
+
+# The git repository containing this platformjam.toml at its root.
+repository = "https://github.com/acme/learngraph"
+
+# Optional logo URL. If not specified, a default placeholder logo will be used.
+logo = "https://github.com/acme/learngraph/raw/main/logo_fullres.png"
+
+# Optional favicon URL. If not specified, the favicon will be derived
+# from a downscaled version of the logo.
+favicon = "https://github.com/acme/learngraph/raw/main/favicon.png"
+
+# SPDX license identifier, or "proprietary" if you don't want to specify a license
+license = "MIT OR Apache-2.0"
+
+# The [links] section contains arbitrary key-value pairs of links
+# related to your project. Underscores are interpetted as spaces
+# when displaying the link keys, so you can use them to create more
+# human-friendly link names (e.g. "live_demo" will be displayed as "Live demo").
+[links]
+live_demo = "https://learngraph.example.com"
+demo_video = "https://youtube.com/watch?v=..."
+slides = "https://example.com/slides.pdf"
+
+[devlogs]
+# Optional path to a folder in this repo containing devlogs.
+# Devlogs are markdown files and must have the .md extension.
+# They are displayed in the order they are found in the folder,
+# so you can prefix them with numbers to control the order.
+# The assigned UUID for each devlog is derived from the hash
+# of the filename and the project ID, so changing the filename
+# will change the UUID and break links to that devlog. Try not
+# to change devlog filenames after you create them. Modify the
+# title for a devlog by placing an h1 header at the beginning
+# of the file (e.g. "# My devlog title"). If no h1 header is found,
+# the filename (without the .md extension) will be used as a
+# fallback title. You are encouraged to choose a generic file name
+# (e.g. "day1.md") and put the actual title in the h1 header,
+# so you can update the title without changing the filename.
+path = "devlogs/"
+
+# An optional list of external components used in your project
+# is enumerated as the [[technologies]] array. This is where
+# you can give credit to third-party tools, libraries, APIs, etc.
+[[technologies]]
+name = "OpenAI"
+reason = "quiz hint generation"
+
+[[technologies]]
+name = "Svelte"
+reason = "frontend framework"
+
+[servicerequests.postgres]
+reason = "store user data and quiz results"
+
+[servicerequests.redis]
+reason = "caching and real-time leaderboard updates"
+
+[servicerequests.livekit]
+reason = "real-time video and audio communication for collaborative exercises"

@@ -18,7 +18,7 @@ tagline = "Interactive graph theory education platform"
 description = "A web platform for learning graph theory through visual lessons, quizzes, and interactive exercises."
 
 # The git repository containing this platformjam.toml at its root.
-repository = "https://github.com/acme/learngraph"
+repository = "https://github.com/PlatformJam/example-submission"
 
 # Optional logo URL. If not specified, a default placeholder logo will be used.
 logo = "https://github.com/acme/learngraph/raw/main/logo_fullres.png"

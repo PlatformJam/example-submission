@@ -12,6 +12,7 @@ name = "LearnGraph"
 # project to potential users.
 tagline = "Interactive graph theory education platform"
 
+
 # A longer description of your project. This is a good place to talk about
 # the motivation for your project, the problem you're trying to solve, and
 # the key features of your solution.

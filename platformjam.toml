@@ -5,7 +5,7 @@ jam = "Spring 2026"
 
 # Basic project info.
 [project]
-name = "LearnGraph2"
+name = "LearnGraph"
 
 # A short, catchy description of your project. This should be no more than
 # a sentence or two, and is meant to quickly convey the essence of your
